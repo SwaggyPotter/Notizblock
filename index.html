@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizblock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon/notes.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--####################################################################-->
+
+    <header id="header">
+
+        <div id="headerSearchAndIcon">
+
+            <p class="headerItemPadding" id="sideMenuIcon">
+                <span id="exspandItems" class="material-symbols-outlined">menu</span>
+            </p>
+
+            <p class="headerItemPadding" id="NotizenPlusIcon">
+                <span id="noteIcon" class="material-symbols-outlined">description</span>
+                <span>Notizen</span>
+            </p>
+
+        </div>
+        <hr id="hrUnderLine">
+    </header>
+
+    <!--####################################################################-->
+
+
+    <main id="main">
+
+        <div id="sideMenu">
+            <p id="item1" class="sideMenuItem-active">Notizen</p>
+            <p id="item5" class="sideMenuItem">Papierkorb</p>
+        </div>
+
+        <div id="noteWriteAndNotes">
+
+            <div id="noteWrite">
+                <input id="titleInput" type="text" placeholder="Titel">
+                <input id="noteInput" placeholder="Notiz schreiben..." type="text">
+                <button id="saveButton">Speichern</button>
+            </div>
+
+            <div id="notes">
+            </div>
+
+        </div>
+
+    </main>
+    <!--####################################################################-->
+
+    <div id="trash">
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+<script src="side_Menu_effects.js"></script>
+
+</html>
